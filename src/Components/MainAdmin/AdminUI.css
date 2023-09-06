@@ -1,0 +1,43 @@
+/*      parent    */
+.parent {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/*    Delete_multiple   */
+.delMultiple {
+  display: inline-block;
+  height: 2.5rem;
+  width: 18%;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  margin-top: 2.2rem;
+  margin-right: 70%;
+  margin-bottom: 7.4rem;
+  border-radius: 5rem;
+  background-color: red;
+  cursor: pointer;
+}
+
+/*    pagination     */
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 2.5rem;
+  padding: 1px;
+  margin-top: -9.9rem;
+  list-style: none;
+  border: 2px solid royalblue;
+  border-radius: 2rem;
+  margin-left: 40%;
+  background-color: silver;
+  cursor: pointer;
+}

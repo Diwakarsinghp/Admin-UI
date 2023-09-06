@@ -1,0 +1,8 @@
+.delete {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  color: red;
+  background-color: snow;
+  border: none;
+  cursor: pointer;
+}
